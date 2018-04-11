@@ -38,7 +38,7 @@ void Member::follow(Member m) {
 	vector<Member>::iterator it;
 
 	it = std::find(Member::Following->begin(), Member::Following->end(), m);   // check duplicates
-	if (it == Member::Following->end()) {
+	if (it == Member::Following->end()&& !(*this==m)) { 
 		Member::Following->push_back(m);
 		this->flag = false;
 		m.Followers->push_back(*this);
