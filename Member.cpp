@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "Member.hpp"
+#include "Member.h"
 #include <algorithm>
 #include <stdbool.h>
 using namespace std;
