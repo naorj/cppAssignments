@@ -1,6 +1,6 @@
 #include <iostream>
 #include <sstream>
-#include "CircularInt.h"
+#include "CircularInt.hpp"
 using namespace std;
 
 CircularInt::CircularInt(int a, int b) {		//Constructor

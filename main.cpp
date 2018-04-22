@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "CircularInt.h"
+#include "CircularInt.hpp"
 
 int main() {
 	CircularInt hour (1, 12);                 // <hour is an integer between 1 and 12, like an hour on the clock>
