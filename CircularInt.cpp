@@ -102,3 +102,11 @@ a.current=a.current/b;
 return a;
 }
 
+bool operator==(CircularInt&a ,int b){
+	if(a.current==b)
+		return true;
+	else
+		return false;
+
+}
+
