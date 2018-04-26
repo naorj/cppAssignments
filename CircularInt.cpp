@@ -110,3 +110,7 @@ bool operator==(CircularInt&a ,int b){
 
 }
 
+bool operator==(int a ,CircularInt& b){
+	return b==a;
+}
+
