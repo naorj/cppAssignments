@@ -84,7 +84,11 @@ string operator/(CircularInt& t, int num) {	// divide overloading with try+catch
 				+ str3 + "=" + str2;
 }
 
-/*int operator/(CircularInt& t, int num) {
- return (t.current / num);
- }*/
+CircularInt& operator+(CircularInt& a, int b){
+	if(a.current+b>12)
+		a.current=(a.current+b)%a.high;
+	else
+		a.current+=b;
+	return a;
+}
 
