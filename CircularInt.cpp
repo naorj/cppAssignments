@@ -97,3 +97,8 @@ CircularInt& operator/(int a, CircularInt& b){
 	return b;
 }
 
+CircularInt& operator/=(CircularInt&a , int b){
+a.current=a.current/b;
+return a;
+}
+
